@@ -125,7 +125,6 @@ nav .menu a {
     display: flex;
     flex-wrap: wrap;
     gap: 5px;
-    justify-content: center;
 }
 
 #banner .banner-image img {
@@ -310,6 +309,13 @@ nav .menu{
 
 #banner .banner-image img {
     width: 100%;
+}
+
+#banner .banner-content .group-btn{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 5px;
+    justify-content: center;
 }
 header {
     background-color: #fff8f3;
